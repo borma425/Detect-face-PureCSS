@@ -1,0 +1,50 @@
+body {
+background: #f7f7f7;
+}
+
+.face {
+    position: relative;
+    margin:calc(41vh - 60px) auto 0;
+    border-radius: 9999px;
+    border-style: dotted;
+    width: 200px;
+    height: 200px;
+    background: url('https://scontent.fcai19-5.fna.fbcdn.net/v/t39.30808-6/310432795_10228587999103637_7626229921536679370_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=yvRyKO9pRD0AX8VWXj6&_nc_ht=scontent.fcai19-5.fna&oh=00_AT9jVXkHzsEsM6tqMB9t3B63IaVMLBb4j8AL94bUu0fo_g&oe=634A525A') 0 0 no-repeat;
+    background-size: 1284px 965px;
+    background-repeat: no-repeat;
+    animation: focus ease-in-out infinite 13s;
+    filter: grayscale(71%);
+    transform:scale(1.2);
+
+}
+
+
+@keyframes focus {
+
+    0%   { background-position: -1098px -331px; }
+    3%   { background-position: -1098px -331px; }
+    5%   { background-position: -1105px -154px; }
+    10%  { background-position: -969px -167px;  }
+    15%  { background-position: -896px -53px;   }
+    20%  { background-position: -761px 0px;     }
+    25%  { background-position: -761px 0px;     }
+    30%  { background-position: -763px -229px;  }
+    35%  { background-position: -763px -229px;  }
+    40%  { background-position: -617px -175px;  }
+    45%  { background-position: -664px -30px;   }
+    50%  { background-position: -565px -32px;   }
+    55%  { background-position: -565px -32px;   }
+    60%  { background-position: -453px 26px;    }
+    65%  { background-position: -456px -147px;  }
+    70%  { background-position: -456px -147px;  }
+    75%  { background-position: -523px -280px;  }
+    80%  { background-position: -370px -38px;   }
+    85%  { background-position: -370px -38px;   }
+    90%  { background-position: -260px -78px;   }
+    95%  { background-position: -304px -359px;  }
+    96%  { background-position: -304px -359px;  }
+    98%  { background-position: -34px -226px;   }
+    100% { background-position: -34px -226px;   }
+
+
+}
